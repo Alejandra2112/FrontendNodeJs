@@ -1,4 +1,4 @@
-const url = 'http://localhost:8094/api/usuarios/usuarios';
+const url = 'https://backnodejs.onrender.com/api/usuarios/usuarios'
 
 const listarUsuarios = async () => {
   let body = document.getElementById('contenido');

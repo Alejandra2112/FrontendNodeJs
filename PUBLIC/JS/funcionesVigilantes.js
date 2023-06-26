@@ -1,4 +1,4 @@
-const url = 'http://localhost:8094/api/vigilantes/vigilantes';
+const url = 'https://backnodejs.onrender.com/api/vigilantes/vigilantes';
 
 const ListarVigilantes = async () => {
   let body = document.getElementById('contenido');

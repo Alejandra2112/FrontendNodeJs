@@ -1,4 +1,4 @@
-const url = 'http://localhost:8094/api/reservas/reservas';
+const url = 'https://backnodejs.onrender.com/api/reservas/reservas';
 
 const listarReservas = async () => {
   let body = document.getElementById('contenido');
