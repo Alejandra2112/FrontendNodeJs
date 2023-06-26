@@ -266,10 +266,10 @@ if (editarButton) {
 
 
 const tipoEspacioSelect = document.getElementById('tipoEspacio');
-const propietarioInput = document.getElementById('propietario');
-const capacidadInput = document.getElementById('capacidad');
-const vehiculoInput = document.getElementById('vehiculo');
-const parqueaderoInput = document.getElementById('parqueadero');
+const propietarioInput = document.getElementById('propietarios');
+const capacidadInput = document.getElementById('capacidades');
+const vehiculoInput = document.getElementById('vehiculos');
+const parqueaderoInput = document.getElementById('parqueaderos');
 const espacioSelect = document.getElementById('espacio');
 
 tipoEspacioSelect.addEventListener('change', function() {
