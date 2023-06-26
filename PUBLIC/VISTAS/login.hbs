@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Bienvenido</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" id="usuario"  placeholder="Usuario" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="contrasena" placeholder="Contraseña" />
+            </div>
+            <!-- <a href="">¿Olvidaste tu contraseña?</a> -->
+           <p class="social-text"><a href="#">¿Olvidaste tu contraseña?</a></p>
+          
+            <input type="submit" value="Iniciar Sesión" id="inicioSesion" class="btn solid" />
+            <p class="social-text">¿Aun no tienes acceso? <a href="#" id="sign-up">Registrate</a></p>
+        
+           
+              </form>
+          
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Registro</h2>
+            <div class="containerinput">
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <select name="" id="tipoDocumento">
+                  <option value="CC">CC</option>
+                  <option value="CE">CE</option>
+                </select>
+              </div>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="number" id="documento" placeholder="Documento" />
+              </div>
+            </div>
+
+            <div class="containerinput">
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" id="nombre" placeholder="Nombre" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" id="apellido" placeholder="Apellido" />
+              </div>
+            </div>
+            <div class="containerinput">
+              <div class="input-field">
+                <i class="fas fa-phone fa-flip-horizontal"></i>
+
+                <input type="number" id="telefono" placeholder="Teléfono" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="correo" placeholder="Correo" />
+              </div>
+              
+            </div>
+            <div class="containerinput">
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Contraseña" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="confirmarPassword" placeholder="Confirmar Contraseña" />
+              </div>
+            </div>
+            
+            
+            <input type="submit" class="btn" id="btnRegistrar" value="Registrar" />
+            <p class="social-text">¿Ya te encuentras registrado? <a href="#" id="sign-in" >Iniciar de Sesión</a></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+           
+            <img src="../img/Untitledas.svg" class="image" alt="" />
+          </div>
+         
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+           <br> <img src="../img/Untitleda.svg" class="image" alt="" />
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  
+    <script src="../JS/login.js"></script>
+    <script src="../JS/funcionesUsuarios.js"></script>
+     <script src="../JS/validacionRegistrar.js"></script>
+  </body>
+</html>

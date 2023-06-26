@@ -1,0 +1,19 @@
+{
+  "name": "frontend_alejandra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "path": "^0.12.7",
+    "sweetalert2": "^11.7.12"
+  }
+}
